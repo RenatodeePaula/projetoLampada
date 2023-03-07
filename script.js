@@ -4,47 +4,34 @@ let lampada = document.querySelector('img')
 
 miniBox.addEventListener("click", onOff)
 
-
-
 function onOff() {
+
     if(button.classList.contains('on')){
         button.classList.remove('on')
         button.classList.add('off')
 
-        lampada.setAttribute('src', './assets/ligada.jpg')
+        lampada.setAttribute('src', './assets/ligada.jpg')     
 
-        
-
-} else {
-    button.classList.remove('off')
-    button.classList.add('on')
-    lampada.setAttribute('src', './assets/desligada.jpg')
+    } else {
+        button.classList.remove('off')
+        button.classList.add('on')
+        lampada.setAttribute('src', './assets/desligada.jpg')
 
 }
-}
-
-
+} 
 lampada.addEventListener('dblclick', quebrar)
 
-function quebrar() {
+function quebrar() {    
     lampada.setAttribute('src', './assets/quebrada.jpg')
+    lampada.classList.add('quebrada')
 
-    if(lampada.attr(src="./assets/desligada.jpg") !== undefined) {
-        function onOff() {
-            if(button.classList.contains('on')){
-                button.classList.remove('on')
-                button.classList.add('off')
+    if (lampada.classList.contains('quebrada')) {
+
+         
+    } else {
+        miniBox.addEventListener("click", onOff)
         
-                lampada.setAttribute('src', './assets/ligada.jpg')
-        
-                
-        
-        } else {
-            button.classList.remove('off')
-            button.classList.add('on')
-            lampada.setAttribute('src', './assets/desligada.jpg')
-        
-        }
-        }
     }
+
+    
 }
