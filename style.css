@@ -2,16 +2,16 @@
 body {
     background: black;
 }
-.container {       
-    padding: 60px;
+
+.container {
     display: flex;    
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
+    align-items: center;   
 }
 
 h1 {
     font-size: 45px;
+    text-align: center;
 }
 
 #mini-box {
@@ -22,26 +22,24 @@ h1 {
     position: relative;
 }
 
-.on {
+.off {
     width: 20px;
     height: 20px;
     border-radius: 50%;   
     background: red; 
-    position: absolute;     
-     
+    
+    position: absolute;  
+    right: 0;
 }
 
-
-.off {     
-    
+.on {         
     width: 20px;
     height: 20px;
     border-radius: 50%;   
-    background: red; 
-    position: absolute;  
+    background: white;
 
-    right: 0; 
-    
+    position: absolute;
+    left: 0;     
 }
 
 
