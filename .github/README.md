@@ -33,4 +33,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Feito by Renato de Paula 
+Feito by Renato de Paula. 
+Créditos para Fernando Leonid Youtube.
