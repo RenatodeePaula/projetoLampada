@@ -1,7 +1,7 @@
 <h1 align="center"> Projeto Lâmpada </h1>
 
 <p align="center">
-Lãmpada que acende e apaga através de um button e quebra com o uso de 2 clicks com o mouse nas imagens.
+Lâmpada que acende e apaga através de um button e quebra com o uso de 2 clicks com o mouse nas imagens.
 Projeto exercício feito com JavaScript puro.
 </p>
 
