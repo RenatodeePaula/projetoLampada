@@ -1,4 +1,9 @@
-<h1 align="center"> Site para calculo de IMC </h1>
+<h1 align="center"> Projeto Lâmpada </h1>
+
+<p align="center">
+Lãmpada que acende e apaga através de um button e quebra com o uso de 2 clicks com o mouse nas imagens.
+Projeto exercício feito com JavaScript puro.
+</p>
 
 
 
@@ -27,8 +32,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  
 
 ## 🔖 Layout
-
-
-
 
 Feito by Renato de Paula 
