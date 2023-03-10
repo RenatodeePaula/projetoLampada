@@ -35,6 +35,8 @@ function quebrar() {
     lampada.src = './assets/quebrada-removebg-preview.png'
     lampada.classList.add('quebrada')
     body.style.background = "black"    
+    miniBox.style.background = 'opacity: .6'
+    button.style = "opacity: .3" 
 }
 
 lampada.addEventListener("mouseover", mouseIn)
